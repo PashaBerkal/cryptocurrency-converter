@@ -1,0 +1,46 @@
+.Сonverter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    background: #253344;
+    .options {
+        display: flex;
+        width: 900px;
+        gap: 70px;
+        margin-top: 100px;
+        .option{
+            width: 100%;
+            .description {
+                display: block;
+                color: #6f8c9e;
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            input{
+                border: 1px solid #ffffff;
+                border-radius: 5px;
+                width: 100%;
+                height: 32px;
+                background: #253344;
+                color: #fff;
+            }
+            select{
+                border-radius: 5px;
+                background-color: #253344;
+                border: 1px solid #ffffff;
+                width: 100%;
+                height: 36px;
+                color: #fff;
+            }
+        }
+    }
+    .result {
+        margin-top: 50px;
+        color: #dfe0e2;
+        font-size: 20px;
+        display: flex;
+        gap: 5px;
+    }
+}
